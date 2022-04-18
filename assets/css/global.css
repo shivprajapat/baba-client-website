@@ -1,0 +1,66 @@
+/* Color Variables Start*/
+:root {
+  --white: #ffffff;
+}
+/* Color Variables End*/
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: var(--font_l);
+}
+table,
+tr,
+td,
+h1,
+p,
+h3,
+h4,
+h5,
+h6,
+div,
+span,
+a,
+li,
+ul,
+ol,
+p,
+form,
+input {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  font-weight: normal;
+  line-height: normal;
+  font-family: var(--font_l);
+  outline: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none !important;
+}
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none !important;
+}
+input:focus,
+textarea:focus {
+  border: none;
+}
+
+/* Global CSS */
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 25px;
+}
+p {
+  font-size: 18px;
+  line-height: 26px;
+}

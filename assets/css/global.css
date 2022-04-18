@@ -1,14 +1,15 @@
 /* Color Variables Start*/
-:root {
-  --white: #ffffff;
-}
 /* Color Variables End*/
 
-body {
-  padding: 0px;
-  margin: 0px;
-  font-family: var(--font_l);
+:root {
+  --white: #ffffff;
+  --pink: #ff9a9a;
+  --lightpink: #ffc9c9;
+  --dark: #000;
+  --white: #fff;
+  --brown: #9b1b3a;
 }
+
 table,
 tr,
 td,
@@ -63,4 +64,19 @@ h3 {
 p {
   font-size: 18px;
   line-height: 26px;
+}
+.main-btn {
+  background-color: var(--brown);
+  border: 2px solid transparent;
+  color: var(--white);
+  font-weight: 500;
+  text-align: center;
+  padding: 5px 15px;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.main-btn:hover {
+  border-color: var(--brown);
+  background-color: transparent;
+  color: var(--brown);
 }

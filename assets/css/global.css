@@ -5,9 +5,11 @@
   --white: #ffffff;
   --pink: #ff9a9a;
   --lightpink: #ffc9c9;
-  --dark: #000;
+  --black: #000;
   --white: #fff;
   --brown: #9b1b3a;
+    --light-gray: #4d3e3e;
+
 }
 
 table,
@@ -33,8 +35,10 @@ input {
   text-decoration: none;
   font-weight: normal;
   line-height: normal;
-  font-family: var(--font_l);
   outline: none;
+}
+li{
+  list-style: none;
 }
 a:hover,
 a:focus {
@@ -52,6 +56,14 @@ textarea:focus {
 }
 
 /* Global CSS */
+.main-container {
+  position: relative;
+}
+.main-container::after {
+  clear: both;
+  display: table;
+  content: "";
+}
 h1 {
   font-size: 45px;
 }
@@ -79,4 +91,8 @@ p {
   border-color: var(--brown);
   background-color: transparent;
   color: var(--brown);
+}
+
+.section_padding {
+  padding: 70px 0;
 }

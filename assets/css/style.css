@@ -22,8 +22,8 @@ header nav {
 header nav .navbar-brand {
   width: 250px;
 }
-header nav .navbar-nav{
-    align-items: center;
+header nav .navbar-nav {
+  align-items: center;
 }
 header nav .nav-link {
   text-decoration: none;
@@ -34,8 +34,60 @@ header nav .nav-link {
   font-size: 16px;
   transition: all 0.3s ease;
 }
-header nav .nav-link:hover{
-    color: var(--white);
+header nav .nav-link:hover {
+  color: var(--white);
+}
+.hero-section {
+  position: relative;
+  padding: 140px 0 80px;
+  background-color: #ff9a9a;
+}
+.hero-section img {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+.banner-caption {
+  margin-top: 20px;
+  text-align: center;
+}
+.banner-caption h1 {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+ color: var(--light-gray);
+  margin-bottom: 15px;
 }
 
 /* ./header */
+#countdown {
+  margin-top: 50px;
+}
+#countdown li {
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+}
+#countdown li:last-child {
+  margin-right: 0;
+}
+#countdown li span {
+  background: var(--white);
+  border-radius: 50%;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+  box-shadow: 0px 0px 5px rgb(0 0 0 / 50%), 15px 2px 5px rgb(0 0 0 / 50%);
+  font-weight: 600;
+  font-size: 40px;
+}
+#countdown li p {
+  margin-top: 15px;
+  color: var(--light-gray);
+  font-weight: 600;
+  text-transform: capitalize;
+}

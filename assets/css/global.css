@@ -3,13 +3,12 @@
 
 :root {
   --white: #ffffff;
-  --pink: #ff9a9a;
   --lightpink: #ffc9c9;
   --black: #000;
   --white: #fff;
   --brown: #9b1b3a;
-    --light-gray: #4d3e3e;
-
+  --light-gray: #4d3e3e;
+  --main-color: #ff9a9a;
 }
 
 table,
@@ -37,7 +36,7 @@ input {
   line-height: normal;
   outline: none;
 }
-li{
+li {
   list-style: none;
 }
 a:hover,
@@ -96,3 +95,15 @@ p {
 .section_padding {
   padding: 70px 0;
 }
+
+@keyframes down {
+  0%,
+  100% {
+    transform: translateX(500px) rotate(0deg);
+  }
+
+  50% {
+    transform: translateX(0px) rotate(360deg);
+  }
+}
+/* animation: down 7s linear infinite; */

@@ -40,7 +40,7 @@ header nav .nav-link:hover {
 .hero-section {
   position: relative;
   padding: 140px 0 80px;
-  background-color: #ff9a9a;
+  background-color: var(--main-color);
 }
 .hero-section img {
   max-width: 500px;
@@ -55,7 +55,7 @@ header nav .nav-link:hover {
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
- color: var(--light-gray);
+  color: var(--light-gray);
   margin-bottom: 15px;
 }
 
@@ -91,3 +91,33 @@ header nav .nav-link:hover {
   font-weight: 600;
   text-transform: capitalize;
 }
+
+/* our-section */
+.our-section {
+  background-color: var(--main-color);
+}
+
+.our-section .our-tab-item {
+  display: inline-block;
+  position: absolute;
+}
+.our-section .our-tab-item .icon {
+  border: 4px solid var(--brown);
+  background-color: var(--white);
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.our-section .icon img {
+  width: 50px;
+}
+.our-section .our-tab-item p {
+  display: inline-block;
+  background-color: var(--white);
+  color: var(--brown);
+  margin-top: 10px;
+}
+/* ./our-section */
